@@ -1,0 +1,41 @@
+.WelcomeContainer{
+    padding: 3em 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: #e6e2cf;
+}
+.WelcomeContainer h1 {
+    font-size: 1.7em;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0;
+    color: var(--textColor);
+}
+.WelcomeInfo{
+    height: 253px;
+    overflow: auto;
+}
+.WelcomeInfo p{
+    margin-bottom: 2em;
+    color: var(--textColor);
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+}
+.actionBtn{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.actionBtn>a:last-child{
+    color: var(--btnBgColor);
+    font-size: 1.275em;
+    font-weight: 500;
+    font-style: normal;
+}

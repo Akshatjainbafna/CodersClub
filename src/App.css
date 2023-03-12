@@ -1,0 +1,43 @@
+:root{
+  --textColor: rgb(65, 64, 66);
+  --btnBgColor: #3287b7;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: "Neutrif Pro";
+}
+button{
+  outline: none !important;
+
+}
+a{
+  text-decoration: none !important;
+}
+.primaryBtn{
+  background-color: var(--btnBgColor);
+  color: #fff;
+  border-radius: 2em;
+  padding: 0.5em 1.5 em;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+a:hover{
+  text-decoration: none !important;
+}
+.app_layout{
+  background-color: #e6e2cf;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  overflow: auto;
+}

@@ -1,0 +1,40 @@
+.dailyCard{
+    background-color: #d8d3ba;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.dailyCard > div{
+    display:flex;
+    align-items: flex-start;
+    margin-bottom: 0.5em;
+
+}
+.dailyCard>div>span{
+    width: 20%;
+    text-align: end;
+
+}
+.dailyCard>div>div{
+    margin-left: 0.5em;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+}
+.dailyCard span{
+font-size: 0.875em;
+color: var(--textColor);
+font-weight: 500;
+
+}
+.dailyCard p{
+font-size: 0.675em;
+font-weight: 500;
+margin: 0;
+display: inline-block;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+width: 195px;
+}
