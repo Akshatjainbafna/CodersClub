@@ -9,7 +9,7 @@ In the project directory, you can run:
 ## BACK END
 ### `node index.js`
 
-Runs Backend in the development mode on port 5000.\
+Runs Backend in the development mode on port 5000.
 
 
 ## FRONT END
