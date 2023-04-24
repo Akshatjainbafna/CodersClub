@@ -1,12 +1,12 @@
-# Getting Started with Create React App
+# CodersClub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A social audio platform where people can discuss and learn in public, private, protected clubs, people can connect, search and chat with peers as well. WebRTC is used for audio communication, PostgreSQL as Database and Firebase to share the token that connects two devices.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-##BACK END
+## BACK END
 ### `node index.js`
 
 Runs Backend in the development mode on port 5000.\
